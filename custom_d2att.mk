@@ -21,7 +21,7 @@ $(call inherit-product, vendor/custom/config/common.mk)
 
 $(call inherit-product, device/samsung/d2att/device.mk)
 
-PRODUCT_COPY_FILES := vendor/custom/prebuilt/etc/apns-conf.xml:system/etc/apns-conf.xml
+PRODUCT_COPY_FILES += vendor/custom/prebuilt/etc/apns-conf.xml:system/etc/apns-conf.xml
 
 # Discard inherited values and use our own instead.
 PRODUCT_NAME := custom_d2att
