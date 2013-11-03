@@ -9,4 +9,4 @@
 
 PRODUCT_MAKEFILES := \
 	$(LOCAL_DIR)/aosp_d2att.mk \
-	$(LOCAL_DIR)/custom_d2att.mk
+	$(LOCAL_DIR)/omni_d2att.mk
